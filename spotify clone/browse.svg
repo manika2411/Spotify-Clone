@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="none">
+  <!-- Main Basket -->
+  <rect x="6" y="8" width="12" height="10" rx="2" ry="2" fill="white"/>
+  <!-- Handle (Rounded U-shape) -->
+  <path d="M9 8V6a3 3 0 0 1 6 0v2" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Oval Cutout -->
+  <ellipse cx="12" cy="13" rx="3" ry="1.5" fill="black"/>
+</svg>
+
+
+
+
+
+
+
