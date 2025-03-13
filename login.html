@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in - Spotify</title>
+    <link rel="stylesheet" href="sstyle.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <img src="logo.svg" alt="Spotify Logo" class="logo">
+            <h2>Log in to Spotify</h2>
+            
+            <button class="social-btn google">Continue with Google</button>
+            <button class="social-btn facebook">Continue with Facebook</button>
+            <button class="social-btn apple">Continue with Apple</button>
+            <button class="social-btn phone">Continue with Phone Number</button>
+
+            <hr>
+
+            <form id="login-form">
+                <label>Email or username</label>
+                <input type="text" id="email" placeholder="Email or username" required>
+            
+                <label>Password</label>
+                <input type="password" id="password" class="password-field" placeholder="Password" required>
+            
+                <span class="error-message"></span>
+            
+                <button type="submit" class="login-btn">Log In</button>
+            </form>
+            <script src="signup.js"></script>
+            
+
+            <a href="#" class="forgot-password">Forgot your password?</a>
+            <p>Don't have an account? <a href="signup.html">Sign up for Spotify</a></p>
+        </div>
+    </div>
+</body>
+</html>
